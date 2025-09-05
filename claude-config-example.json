@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "mysql": {
+      "command": "node",
+      "args": ["/Users/robsonrung/Development/mysql-mcp-server/src/index.js"],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": "3306", 
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "your_password",
+        "MYSQL_DATABASE": "your_database",
+        "MYSQL_SSL": "false"
+      }
+    }
+  }
+}
